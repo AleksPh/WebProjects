@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Storage with Web3</title>
+    <link rel="stylesheet" href="contract.css">
+</head>
+<body>
+    <h1>Simple Storage Contract</h1>
+
+    <div>
+        <label for="newValue">Enter a new value:</label>
+        <input type="number" id="newValue" />
+        <button onclick="setValue()">Set Value</button>
+    </div>
+
+    <div>
+        <h2>Stored Value:</h2>
+        <p id="storedValue">Loading...</p>
+    </div>
+
+    <script src="contract.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+</body>
+</html>
